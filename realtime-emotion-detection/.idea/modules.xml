@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../realtime-bg-remove/.idea/realtime-bg-remove.iml" filepath="$PROJECT_DIR$/../realtime-bg-remove/.idea/realtime-bg-remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/realtime-emotion-detection.iml" filepath="$PROJECT_DIR$/.idea/realtime-emotion-detection.iml" />
+    </modules>
+  </component>
+</project>

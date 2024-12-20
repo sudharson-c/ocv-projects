@@ -1,0 +1,5 @@
+Web App:
+    streamlit run web-app.py
+
+Normal:
+    python emotion.py

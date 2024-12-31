@@ -36,7 +36,7 @@ def getClassName(classNo):
 
 
 # Path to the image to be predicted
-image_path = "test_image.jpg"  # Replace with your image path
+image_path = "test/speed-limit-30.webp"  # Replace with your image path
 
 # READ IMAGE
 imgOriginal = cv2.imread(image_path)

@@ -13,10 +13,10 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 # Parameters
 path = "myData"  # Folder with all class folders
 labelFile = 'labels.csv'  # CSV file with class labels
-batch_size_val = 50
-epochs_val = 10
+batch_size_val = 40
+epochs_val = 13
 image_dimensions = (32, 32, 3)
-test_ratio = 0.2
+test_ratio = 0.3
 validation_ratio = 0.2
 
 # Loading Images

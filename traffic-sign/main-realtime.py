@@ -17,7 +17,7 @@ cap.set(4, frameHeight)
 cap.set(10, brightness)
 
 # IMPORT THE TRAINED MODEL
-model = load_model("traffic_sign_model.h5")
+model = load_model("traffic_model.h5")
 print("Model loaded successfully.")
 
 def grayscale(img):

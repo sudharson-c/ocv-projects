@@ -3,7 +3,7 @@ import cv2
 from keras.models import load_model
 
 # IMPORT THE TRAINED MODEL
-model = load_model("traffic_sign_model.h5")
+model = load_model("traffic_model.h5")
 print("Model loaded successfully.")
 
 def grayscale(img):
@@ -36,7 +36,7 @@ def getClassName(classNo):
 
 
 # Path to the image to be predicted
-image_path = "test/speed-limit-30.webp"  # Replace with your image path
+image_path = "test/no-entry.PNG"  # Replace with your image path
 
 # READ IMAGE
 imgOriginal = cv2.imread(image_path)
